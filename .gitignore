@@ -3,5 +3,6 @@
 
 # python related
 config.py
+account.json
 **/__pycache__/
 
