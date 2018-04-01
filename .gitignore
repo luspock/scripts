@@ -1,1 +1,7 @@
 **/build/
+*.txt
+
+# python related
+config.py
+**/__pycache__/
+
