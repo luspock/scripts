@@ -20,6 +20,6 @@ with open(filename,'r') as f:
 	latestip = f.read()
 
 if localIP != latestip:
-	with open(path+"/latestip.txt",'w') as f:
+	with open(filename,'w') as f:
 		f.write(localIP)
 	sendmail.sendMail("Newest IP: {0}".format(localIP), "Pi IP changed")
